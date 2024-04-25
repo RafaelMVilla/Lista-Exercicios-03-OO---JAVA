@@ -15,9 +15,9 @@ public class Exercicio11 {
         Scanner ler = new Scanner(System.in);
         
         
-        Identidade[] pessoas = new Identidade[2];
+        Identidade[] pessoas = new Identidade[56];
 
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < 56; i++) {
 
             Identidade p = new Identidade();
 
@@ -35,7 +35,7 @@ public class Exercicio11 {
         int contHomens = 0;
         int contMulheres = 0;
 
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < 56; i++) {
             
             System.out.println( (i + 1) + "º Nome: "+ pessoas[i].getNome());
             
